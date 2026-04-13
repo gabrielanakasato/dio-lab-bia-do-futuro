@@ -1,0 +1,22 @@
+{
+  "MERCADO": [
+    "dólar", "euro", "cotação", "bitcoin", "selic", "cdi", "câmbio", "moeda"
+  ],
+  "INVESTIMENTO": [
+    "cdb", "ações", "onde investir", "rendimento", "fii", "lci", "lca", "etf", "onde investir", "qual rende mais", "tesouro", "poupança", "onde aplicar"
+  ],
+  "CONTEUDO_EXTERNO": [
+    "livro", "youtube", "curso", "influenciador", "indicação de leitura", "youtuber", "canal", "autor"
+  ],
+  "SEGURANCA": [
+    "senha", "token", "cvv", "cpf", "agência", "documento", "rg", "chave aleatória", "conta corrente", "endereço", "cartão", "login"
+  ],
+  "LEGAL_JURIDICO": [
+    "limpar nome", "justiça", "processo", "advogado", "imposto de renda", "serasa"
+  ],
+  "RECOMENDACAO_CONSUMO": [
+    "nubank", "inter", "itau", "bradesco", "santander", 
+    "samsung", "apple", "dell", "hp", "lenovo",
+    "qual é melhor", "qual você recomenda", "qual marca", "qual modelo"
+  ]
+}

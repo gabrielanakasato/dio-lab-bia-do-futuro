@@ -6,6 +6,7 @@
     "valor_total": 7500.00,
     "prazo_meses": 6,
     "valor_acumulado": 5700.00,
+    "esforco_mensal": 300.00,
     "prioridade": "Alta"
   },
   {
@@ -15,6 +16,7 @@
     "valor_total": 3600.00,
     "prazo_meses": 18,
     "valor_acumulado": 0.00,
+    "esforco_mensal": 200.00,
     "prioridade": "Média"
   }
 ]

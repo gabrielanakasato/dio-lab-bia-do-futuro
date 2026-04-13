@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "meta": "Celular novo",
+    "motivacao": "Em breve meu celular parará de ter atualizações e a bateria está ruim. Preciso dele, pois uso muito no meu trabalho.",
+    "valor_total": 7500.00,
+    "prazo_meses": 6,
+    "valor_acumulado": 5700.00,
+    "prioridade": "Alta"
+  },
+  {
+    "id": 2,
+    "meta": "Curso",
+    "motivacao": "Certificação para crescimento na carreira",
+    "valor_total": 3600.00,
+    "prazo_meses": 18,
+    "valor_acumulado": 0.00,
+    "prioridade": "Média"
+  }
+]

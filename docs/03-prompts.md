@@ -64,7 +64,7 @@ Após a validação da relevância da meta e sempre que ela for estruturada, voc
 
 1. Extração dos dados:
 - V (Valor Total da Meta) = O custo final da realização em reais (R$).
-- TT (Tempo Total) = O prazo para atingir a meta. Considere que ele pode ser em anos, meses ou dias.
+- TT (Tempo Total) = O prazo para atingir a meta.
 - Se o usuário não informar o V ou o TT, explique que ambos são necessários (obrigatórios) para seguirmos com o planejamento da meta.
 
 2. Validação dos dados:

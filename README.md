@@ -115,10 +115,58 @@ streamlit run src/app.py
 
 ## 🎯 Exemplo de Uso
 
-### Exemplo 1
+### Exemplo - Informação não existe
 **Usuário**: 
 
+```
+Qual é mesmo a minha meta 100?
+```
+
 **Mimo**: 
+
+```markdown
+Oi! 😊
+Não encontrei nenhuma “meta 100” no histórico que temos registrado. Pode ter sido um erro de digitação ou talvez seja uma meta que ainda não foi criada.
+
+Para te ajudar melhor, poderia confirmar se você quis dizer alguma das metas que já temos?
+
+    Meta 1 – Celular novo
+    • Valor total: R7.500,00**  
+    • Prazo: **6 meses**  
+    • Valor acumulado: **R5.700,00
+    • Esforço mensal: R$300,00
+    • Prioridade: Alta
+
+    Meta 2 – Curso
+    • Valor total: R3.600,00**  
+    • Prazo: **18 meses**  
+    • Valor acumulado: **R0,00
+    • Esforço mensal: R$200,00
+    • Prioridade: Média
+
+Se for outra meta, me dê um pouquinho mais de contexto (como o valor ou o prazo) e eu ajudo a definir ou lembrar ela! 🚀
+```
+
+### Exemplo - Relevância da meta
+
+**Usuário**: 
+
+```
+Preciso comprar um notebook novo de R$7 mil daqui a 2,5 anos.
+```
+
+**Mimo**: 
+
+```markdown
+🌱 Olá! Para montar um plano que realmente funcione, preciso entender um pouquinho mais sobre o porquê desse notebook.
+
+    Qual a motivação por trás dessa compra?
+    Há algo especial que você espera alcançar com ele?
+
+Assim que você me contar, posso colocar tudo no formato SMART, calcular o esforço mensal e ver se o plano cabe no seu orçamento.
+
+Fico no aguardo! 😊
+```
 
 ## 📈 Métricas de Avaliação
 

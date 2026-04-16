@@ -27,7 +27,7 @@ A avaliação pode ser feita de duas formas complementares:
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Relevância da meta
-- **Pergunta:** "Preciso comprar um notebook novo de R$7 mil daqui a 2,5 anos."
+- **Pergunta:** "Preciso comprar um notebook novo de R\$7 mil daqui a 2,5 anos."
 - **Resposta esperada:** Perguntar o motivo deste desejo existir.
 - **Resultado:** [X] Correto  [ ] Incorreto
 
@@ -42,7 +42,7 @@ A avaliação pode ser feita de duas formas complementares:
 - **Resultado:** [X] Correto  [ ] Incorreto
 - 
 ### Teste 5: Protocolo de cálculo
-- **Pergunta:** "Preciso comprar um notebook novo de R$7 mil daqui a 13149 horas e já tenho R$5,2 mil. Até lá, minha bateria estará com problema e preciso dele para trabalhar."
+- **Pergunta:** "Preciso comprar um notebook novo de R\$7 mil daqui a 37 dias e já tenho R\$5,2 mil. Até lá, minha bateria estará com problema e preciso dele para trabalhar."
 - **Resposta esperada:** O agente confirma todas as informações, considera que o prazo é de 18 meses e restorna o valor de esforço mensal de R$100,00
 - **Resultado:** [X] Correto  [ ] Incorreto
 
@@ -78,5 +78,6 @@ Após os testes, registre suas conclusões:
 - Não está respondendo perguntas fora de seu escopo.
 
 **O que pode melhorar:**
+- Algumas vezes o Mimo não pergunta sobre a relevância do desejo. Podemos melhorar o system prompt.
 - O Mimo não tem memória, ou seja, a cada nova mensagem é como se fosse uma nova conversa. Então, ter uma memória pode deixar mais interativo.
-- A formatação do texto às vezes fica estranha por conta de símbolos como $.
+- A formatação do texto às vezes fica estranha por conta de símbolos como $. Podemos ver como tratar o texto quando há a presença desse símbolo.

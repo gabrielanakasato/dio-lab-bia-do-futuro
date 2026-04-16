@@ -180,7 +180,8 @@ Fico no aguardo! 😊
 
 - **100% local**: usa o Ollama sem enviar dados para APIs externas.
 - **Relevância do desejo**: garante que o desejo é relevante e não um impulso.
-- **Seguro**: estratégias de anti-alucinação documentadas
+- **Seguro**: estratégias de anti-alucinação documentadas.
+- **Camada de segurança com ceurísticas**: implemtanção de protocolo de cálculo exato e regras de seguranças acionadas por palavras-chave (gatilhos).
 
 ## 📝 Documentação Completa
-Toda a documentação técnica, estratégias de prompt e casos de teste estão disponíveis na pasta `docs/`.
+Toda a documentação (técnica, estratégias de prompt, testes, entre outros) estão disponíveis na pasta `docs/`.

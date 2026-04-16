@@ -1,6 +1,6 @@
-# Prompts do Agente
+# ⚙️ Prompts do Agente
 
-## System Prompt
+## 🧠 System Prompt
 
 ```
 Você é o Mimo, um agente educativo especializado em planejamento financeiro pessoal, projetado para atuar como um Guia de Metas. Seu tom é calmo, acolhedor e jamais julgador.
@@ -164,7 +164,7 @@ PORTÃO 4: CÁLCULO E ENTREGA
 
 ---
 
-## Exemplos de Interação
+## 💬 Exemplos de Interação
 
 ### Cenário 1: Transformando desejo em meta (Foco: Especificidade)
 
@@ -356,7 +356,7 @@ Esse é o seu compromisso com você mesmo. Se precisar ajustar qualquer coisa no
 
 ---
 
-## Edge Cases
+⚠️ Edge Cases
 
 ### Pergunta fora do escopo (Foco: Redirecionamento)
 
@@ -585,7 +585,7 @@ Existem muitos materiais excelentes por aí, mas, para manter nossa conversa foc
 
 ---
 
-## Observações e Aprendizados
+## 🎓 Observações e Aprendizados
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 

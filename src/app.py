@@ -199,7 +199,7 @@ def perguntar(msg):
     return r.json()['response']
 
 # Interface
-st.title('📋 Mimo, seu Guia de Metas')
+st.title('💎 Mimo, seu Guia de Metas')
 
 if pergunta := st.chat_input("Sua dúvida sobre metas..."):
     st.chat_message("user").write(pergunta)

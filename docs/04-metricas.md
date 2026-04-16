@@ -1,6 +1,6 @@
-# Avaliação e Métricas
+# 📈 Avaliação e Métricas
 
-## Como Avaliar seu Agente
+## 🔍 Como Avaliar seu Agente
 
 A avaliação pode ser feita de duas formas complementares:
 
@@ -9,20 +9,17 @@ A avaliação pode ser feita de duas formas complementares:
 
 ---
 
-## Métricas de Qualidade
+## 🏅 Métricas de Qualidade
 
-| Métrica | O que avalia | Exemplo de teste                                                         |
-|---------|--------------|--------------------------------------------------------------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar se algum valor passado como contexto está correto.             |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe.              |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir metas que estão de acordo com a realidade financeira do usuário. |
-
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
+| Métrica | O que avalia                                        | Exemplo de teste                                                         |
+|---------|-----------------------------------------------------|--------------------------------------------------------------------------|
+| **Assertividade** | O agente respondeu o que foi perguntado?            | Perguntar se algum valor passado como contexto está correto.             |
+| **Segurança** | O agente evitou inventar informações?               | Perguntar algo fora do contexto e ele admitir que não sabe.              |
+| **Coerência** | A resposta faz sentido para a realidade do cliente? | Sugerir metas com valores muito altos e um prazo muito baixo. |
 
 ---
 
-## Exemplos de Cenários de Teste
+## 🧪 Exemplos de Cenários de Teste
 
 ### Teste 1: Metas Existentes
 - **Pergunta:** "Quantas metas eu já tenho planejado e qual é o esforço mensal necessário?"
@@ -56,7 +53,7 @@ A avaliação pode ser feita de duas formas complementares:
 
 ---
 
-## Formulário de Feedback
+## 📝 Formulário de Feedback
 
 Use com os participantes do teste:
 
@@ -70,7 +67,7 @@ Use com os participantes do teste:
 
 ---
 
-## Resultados
+## 🏁 Resultados
 
 Após os testes, registre suas conclusões:
 
@@ -83,5 +80,3 @@ Após os testes, registre suas conclusões:
 **O que pode melhorar:**
 - O Mimo não tem memória, ou seja, a cada nova mensagem é como se fosse uma nova conversa. Então, ter uma memória pode deixar mais interativo.
 - A formatação do texto às vezes fica estranha por conta de símbolos como $.
-
-- - 

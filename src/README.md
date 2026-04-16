@@ -1,31 +1,63 @@
-# Código da Aplicação
+# Código da Aplicação - Mimo
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta contém o código-fonte do Mimo.
 
-## Estrutura Sugerida
+## Estrutura
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
+├── app.py              # Aplicação principal (Streamlit)
 └── requirements.txt    # Dependências
 ```
 
-## Exemplo de requirements.txt
+## Dependências
 
 ```
+pandas
+requests
 streamlit
-openai
-python-dotenv
 ```
+## Configurações Necessárias
 
-## Como Rodar
+Para conseguir rodar o código, é preciso:
+
+1. Ter instalado as bibliotecas do `requirements.txt`.
+2. Ter instalado o Ollama e o modelo usado `gpt-oss`.
+
+### Instalação das dependêcias
 
 ```bash
 # Instalar dependências
-pip install -r requirements.txt
+pip install -r scr/requirements.txt
+```
+
+### Instalação do Ollama e do modelo local
+A aplicação usa o Ollama para processamento de linguagem natual.
+
+1. Baixe e instale o Ollama em:[https://ollama.com/](https://ollama.com/).
+2. Baixe o modelo específico utilizado:
+
+```bash
+# Instalar o modelo `gpt-oss` do Ollama
+ollama run gpt-oss
+```
+
+É possível validar se o modelo `gpt-oss` está disponível locamente com:
+```bash
+# Teste do modelo `gpt-oss` do Ollama
+ollama run gpt-oss "Olá!"
+```
+
+## Passo a Passo da Execução
+
+```bash
+# Garantir que o Ollama está ativo
+ollama serve
 
 # Rodar a aplicação
-streamlit run app.py
+streamlit run src/app.py
 ```
+
+## Evidência de Execução
+
+[Colocar print]

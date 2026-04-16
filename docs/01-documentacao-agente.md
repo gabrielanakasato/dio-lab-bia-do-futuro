@@ -1,6 +1,6 @@
-# Documentação do Agente
+#  🤖️ Documentação do Agente
 
-## Caso de Uso
+## 🎯 Caso de Uso
 
 ### Problema
 > Qual problema financeiro seu agente resolve?
@@ -23,7 +23,7 @@ Pessoas iniciantes em planejamento financeiro e que sentem dificuldades em defin
 
 ---
 
-## Persona e Tom de Voz
+## 🗣️ Persona e Tom de Voz
 
 ### Nome do Agente
 Mimo
@@ -49,7 +49,7 @@ Mimo
 
 ---
 
-## Arquitetura
+## 🏗️ Arquitetura
 
 ### Diagrama
 
@@ -76,24 +76,24 @@ flowchart TD
 
 ---
 
-## Segurança e Anti-Alucinação
+## 🔒 Segurança e Anti-Alucinação
 
 ### Estratégias Adotadas
 
-- [ ] Usa apenas as informações fornecidas pelo usuário e nas regras de negócio estabelecidas, sem inventar fatos externos
-- [ ] Não faz recomendações de investimentos, sendo proibido citar nomes de bancos, corretoras, ações ou sugerir qualquer tipo de aplicação financeira
-- [ ] Quando não sabe, assume o limite do seu conhecimento e convida o usuário de volta ao plano
-- [ ] Foca estritamente no planejamento, limitando aos cálculos de tempo e valor e ignorando perguntas de tendências de mercado ou economia
-- [ ] Valida a viabilidade matemática, sabendo identificar planos irreais e sugere ajustes em vez de confirmar o cálculo
-- [ ] Os cálculos devem ser processados usando funções matemáticas exatas, não tendo contas complexas
-- [ ] Mantém a personalidade acolhedora mesmo ao aplicar limites, evitando frases robóticas ou defensivas
-- [ ] Não considera juros ou rendimentos, sendo cálculos nominais para garantir segurança e simplicidade
+- [X] Usa apenas as informações fornecidas pelo usuário e nas regras de negócio estabelecidas, sem inventar fatos externos
+- [X] Não faz recomendações de investimentos, sendo proibido citar nomes de bancos, corretoras, ações ou sugerir qualquer tipo de aplicação financeira
+- [X] Quando não sabe, assume o limite do seu conhecimento e convida o usuário de volta ao plano
+- [X] Foca estritamente no planejamento, limitando aos cálculos de tempo e valor e ignorando perguntas de tendências de mercado ou economia
+- [X] Valida a viabilidade matemática, sabendo identificar planos irreais e sugere ajustes em vez de confirmar o cálculo
+- [X] Os cálculos devem ser processados usando funções matemáticas exatas, não tendo contas complexas
+- [X] Mantém a personalidade acolhedora mesmo ao aplicar limites, evitando frases robóticas ou defensivas
+- [X] Não considera juros ou rendimentos, sendo cálculos nominais para garantir segurança e simplicidade
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
 - NÃO faz recomendação de investimentos
-- NÃO acessa dados bancários reais e/ou sensíveis
+- NÃO acessa dados bancários reais e sensíveis
 - NÃO substitui um profissional certificado
 - NÃO acompanha oscilações de mercado ou taxas em tempo real
 - NÃO garante a rentabilidade futura de qualquer valor poupado

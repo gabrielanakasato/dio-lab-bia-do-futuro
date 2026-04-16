@@ -60,4 +60,5 @@ streamlit run src/app.py
 
 ## Evidência de Execução
 
-[Colocar print]
+<img width="873" height="776" alt="image" src="https://github.com/user-attachments/assets/9c2675cd-70e7-4f69-837d-db22cd736cfb" />
+
